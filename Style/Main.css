@@ -7,6 +7,7 @@
     background-color: rgb(187, 247, 247);
     padding: 0px;
     margin: 0px;
+    text-align: center;
     overflow: hidden;
 }
 
@@ -25,3 +26,17 @@
 .Navbar li {
     float: left;
 }
+
+.Main-img {
+    opacity: 75%;
+}
+
+body {
+    background-color: azure;
+}
+
+footer{
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;
+} 
