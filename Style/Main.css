@@ -15,6 +15,7 @@
     color: white;
     text-decoration: none;
     padding: 15px;
+    font-size: 30px;
     display: block;
     text-align: center;
 }
@@ -28,7 +29,8 @@
 }
 
 .Main-img {
-    opacity: 75%;
+    align-items: center;
+    float: left;
 }
 
 body {
@@ -40,3 +42,9 @@ footer{
     width: 100%;
     height: 100px;
 } 
+
+ul li { 
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
