@@ -1,10 +1,21 @@
+/* hot fixxes */
 * {
     margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
+.Main-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+}
+/* Navbar UI */
 .Navbar ul {
     list-style-type: none;
-    background-color: rgb(187, 247, 247);
+    background-color: rgb(105, 200, 255);
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -27,10 +38,13 @@
 .Navbar li {
     float: left;
 }
-
-.Main-img {
-    align-items: center;
-    float: left;
+/* Body */
+h2 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 35%;
+    font-size: 55px;
 }
 
 body {
