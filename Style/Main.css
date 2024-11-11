@@ -5,8 +5,12 @@
     box-sizing: border-box;
 }
 
-.Main-Img {
-   opacity: 0.4;
+#wrapper{
+	float: left;
+	width: 100%;
+	min-height: 100%;
+	padding-bottom: 0px;
+	box-sizing: border-box;
 }
 
 /* Navbar UI */
@@ -45,8 +49,7 @@ h2 {
     position: absolute;
     font-size: 145px;
     color: white;
-    top: 45%;
-    left: 11%;
+    text-align: center; 
     }
       
 body {
@@ -55,14 +58,14 @@ body {
 
 .Second-div {
     float: left;
-    background-color: darkgreen;
+    background-color: rgb(189, 195, 253);
     width: 100%;
     height: 750px;
 }
 
 .Third-div {
     float: left;
-    background-color: darkslateblue;
+    background-color: rgb(139, 223, 218);
     width: 100%;
     height: 750px;
 }
