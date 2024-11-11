@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 #wrapper{
 	float: left;
 	width: 100%;
@@ -43,13 +44,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
-h2 {
+
+.Main-text {
     font-family: "Merienda", cursive;
     text-shadow: 1.4px 1.5px black;
     position: absolute;
-    font-size: 145px;
+    font-size: 75px;
     color: white;
     text-align: center; 
+    }
+
+    @media screen and (max-width: 479px) {
+        .Main-text {
+                font-size: 45px;
+        }
+        
     }
       
 body {
