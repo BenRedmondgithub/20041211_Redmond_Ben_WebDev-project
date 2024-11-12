@@ -1,7 +1,10 @@
 * {
     margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
+/* NarBar */
 .Navbar ul {
     list-style-type: none;
     background-color: rgb(187, 247, 247);
@@ -14,9 +17,10 @@
     color: white;
     text-decoration: none;
     padding: 15px;
-    font-size: 30px;
+    font-size: 70px;
     display: block;
     text-align: center;
+    align-items: center;
 }
 
 .Navbar a:hover {
@@ -25,4 +29,14 @@
 
 .Navbar li {
     float: left;
+}
+
+ul li { 
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+
+.form_container {
+    background-color: aqua;
 }

@@ -40,6 +40,12 @@
 .Navbar li {
     float: left;
 }
+
+ul li { 
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
 /* Body */
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
@@ -91,8 +97,3 @@ footer{
     height: 250px;
 } 
 
-ul li { 
-    width: 25%;
-    display: inline-block;
-    text-align: center;
-}
