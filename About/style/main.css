@@ -4,9 +4,10 @@
 
 .Navbar ul {
     list-style-type: none;
-    background-color: rgb(187, 247, 247);
+    background-color: rgb(105, 200, 255);
     padding: 0px;
     margin: 0px;
+    text-align: center;
     overflow: hidden;
 }
 
@@ -20,9 +21,15 @@
 }
 
 .Navbar a:hover {
-    background-color: rgb(158, 211, 211);
+    background-color: rgb(194, 253, 253);
 }
 
 .Navbar li {
     float: left;
+}
+
+ul li { 
+    width: 25%;
+    display: inline-block;
+    text-align: center;
 }
