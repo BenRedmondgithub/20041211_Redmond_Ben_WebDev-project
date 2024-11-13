@@ -56,12 +56,18 @@ ul li {
     position: absolute;
     font-size: 75px;
     color: white;
-    text-align: center; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     }
 
     @media screen and (max-width: 479px) {
         .Main-text {
                 font-size: 45px;
+                top: 175px;
+                right: 50px;
         }
         .Navbar li {
             font-size: 45px;
