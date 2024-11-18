@@ -65,8 +65,8 @@ ul li {
 
     @media screen and (max-width: 1200px) {
         .Main-text {
-                font-size: 45px;
-                top: 175px;
+                font-size: 35px;
+                top: 168px;
                 right: 50px;
         }
         li {
@@ -75,7 +75,8 @@ ul li {
         } 
         
         .Navbar a {
-            font-size: 18px;
+            font-size: 16px;
+            
         }
     }
       
