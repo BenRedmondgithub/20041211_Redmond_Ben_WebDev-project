@@ -62,7 +62,7 @@ form {
     display: block;
 }
 
-
+/*
 .form_container_outer {
     float: left;
 	width: 25%;
@@ -99,12 +99,8 @@ form {
 }
 
 
-.main_bg_img{
-  max-height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+#main_bg_img{
+  width: 100%;
 }
 
 .container{
@@ -125,3 +121,8 @@ footer{
     color: #fff;
 	text-align: center;
 } 
+*/
+
+img {
+    background-image: none;
+}
