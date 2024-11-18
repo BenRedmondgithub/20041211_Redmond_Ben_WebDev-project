@@ -58,8 +58,12 @@ form {
      margin: 0 auto; 
 }
 
+.container{
+    display: block;
+}
+
+
 .form_container_outer {
-    background-color: aqua;
     float: left;
 	width: 25%;
 	height: 200px;
@@ -94,8 +98,9 @@ form {
 	border: none;
 }
 
-.main_bg_img {
-  min-height: 380px;
+
+.main_bg_img{
+  max-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,6 +115,7 @@ max-width: 300px;
 padding: 16px;
 background-color: white;
 }
+
 
 footer{
     float: left;
