@@ -63,15 +63,20 @@ ul li {
     transform: translate(-50%, -50%); 
     }
 
-    @media screen and (max-width: 479px) {
+    @media screen and (max-width: 1200px) {
         .Main-text {
                 font-size: 45px;
                 top: 175px;
                 right: 50px;
         }
-        .Navbar li {
-            font-size: 45px;
-        }      
+        li {
+            font-size: 22px;
+            display: block;
+        } 
+        
+        .Navbar a {
+            font-size: 18px;
+        }
     }
       
 body {

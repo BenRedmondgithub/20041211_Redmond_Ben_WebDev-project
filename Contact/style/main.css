@@ -94,6 +94,23 @@ form {
 	border: none;
 }
 
+.main_bg_img {
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container{
+position: absolute;
+right: 0;
+margin: 20px;
+max-width: 300px;
+padding: 16px;
+background-color: white;
+}
+
 footer{
     float: left;
     background-color: cadetblue;
