@@ -63,6 +63,9 @@ ul li {
     transform: translate(-50%, -50%); 
     }
 
+
+    /* use clamp for all media screen */
+    
     @media screen and (max-width: 1200px) {
         .Main-text {
                 font-size: 35px;
@@ -96,7 +99,6 @@ body {
     height: 600px;
     margin-top: 40px;
     margin-left: 20px;
-    
 }
 
 .Third-div {
