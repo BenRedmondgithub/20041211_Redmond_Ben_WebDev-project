@@ -91,6 +91,14 @@ body {
     height: 750px;
 }
 
+#main-img {
+    width: 1000px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+
 .Third-div {
     float: left;
     background-color: rgb(139, 223, 218);
