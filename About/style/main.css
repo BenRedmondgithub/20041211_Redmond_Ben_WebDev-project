@@ -2,6 +2,8 @@
     margin: 0%;
 }
 
+
+
 /* outside link to font */
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
@@ -40,17 +42,97 @@ ul li {
 }
 
 .first-div-box {
-    background-image: url(/Assets/Leonardo_Phoenix_A_warm_and_inviting_exterior_shot_of_the_Coas_3.jpg);
+    background-image: url(/Assets/Leonardo_Phoenix_A_warm_and_inviting_exterior_shot_of_the_Coas_2.jpg);
     background-color: bisque;
     width: 100%;
-    height: 300px;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.second-div-box {
-    background-color: aquamarine;
-    width: 100%;
-    height: 300px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+h1 {
+    font-family: "Merienda", cursive;
+    text-shadow: 1.4px 1.5px black;
+    position: absolute;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    }
+
+    h2 {
+    float: right;
+    font-size: 60px;
+    top: 100px;
+    left: 300px;
+    font-family: "Merienda", cursive;
+    }
+
+    .second-div-box {
+        background-color: aquamarine;
+        width: 100%;
+        height: 700px;
+    }
+
+    .Second-div {
+        float: left;
+        background-color: rgb(191, 238, 252);
+        width: 100%;
+        height: 750px;
+    }
+    
+    #main-img {
+        border: 5px white;
+        display: flexbox;
+        float: left;
+        width: 850px;
+        height: 500px;
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+    
+    #main-text { 
+        display: flexbox;
+        font-size: 40px;
+        margin-top: 150px;
+        margin-right: 30px;
+    }
+    
+    .Third-div {
+        background-color: rgb(191, 238, 252);
+        width: 100%;
+        height: 900px;
+        float: right;
+    }
+    
+    #headline_2 {
+        float: left;
+        font-size: 55px;
+        margin-top: 25px;
+        margin-right: 30px;
+    }
+    
+    #main-img-2 {
+        float: right;
+        width: 800px;
+        height: 500px;
+        margin-top: 50px;
+        margin-right: 20px;
+    } 
+    
+    #main-text-2 {
+        display: flexbox;
+        font-size: 40px;
+        margin-top: 130px;
+        margin-right: 30px;
+    }
 
 .third-div-box {
     background-color: darkkhaki;
