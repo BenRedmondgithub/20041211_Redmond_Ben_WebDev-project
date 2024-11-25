@@ -2,9 +2,12 @@
     margin: 0%;
 }
 
+/* outside link to font */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 .Navbar ul {
     list-style-type: none;
-    background-color: rgb(105, 200, 255);
+    background-color: rgb(255, 220, 167);
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -12,7 +15,9 @@
 }
 
 .Navbar a {
+    font-family: "Merienda", cursive;
     color: white;
+    text-shadow: 0.8px 0.5px black;
     text-decoration: none;
     padding: 15px;
     font-size: 30px;
@@ -21,7 +26,7 @@
 }
 
 .Navbar a:hover {
-    background-color: rgb(194, 253, 253);
+    background-color: rgb(199, 175, 139);
 }
 
 .Navbar li {
@@ -35,6 +40,7 @@ ul li {
 }
 
 .first-div-box {
+    background-image: url(/Assets/Leonardo_Phoenix_A_warm_and_inviting_exterior_shot_of_the_Coas_3.jpg);
     background-color: bisque;
     width: 100%;
     height: 300px;
