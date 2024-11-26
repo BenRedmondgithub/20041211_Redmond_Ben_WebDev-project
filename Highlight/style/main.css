@@ -40,3 +40,9 @@ ul li {
     display: inline-block;
     text-align: center;
 }
+
+#Headline {
+    height: 700px;
+    width: 100%;
+    background-image: url(/Assets/Leonardo_Phoenix_A_warm_and_inviting_illustration_of_the_Coast_0.jpg);
+}
