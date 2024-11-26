@@ -92,8 +92,8 @@ h1 {
         border: 5px white;
         display: flexbox;
         float: left;
-        width: 850px;
-        height: 500px;
+        width: 550px;
+        height: 550px;
         margin-top: 130px;
         margin-left: 20px;
     }
@@ -121,8 +121,8 @@ h1 {
     
     #main-img-2 {
         float: right;
-        width: 800px;
-        height: 500px;
+        width: 550px;
+        height: 550px;
         margin-top: 50px;
         margin-right: 20px;
     } 
