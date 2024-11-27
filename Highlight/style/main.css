@@ -134,7 +134,7 @@ ul li {
     margin-right: 30px;
 }
 
-#main_img-3 {
+#main_img_3 {
     float: left;
     width: 800px;
     height: 500px;
@@ -142,7 +142,7 @@ ul li {
     margin-right: 20px;
 }
 
-#main_text-3 {
+#main_text_3 {
     display: flexbox;
     font-size: 40px;
     margin-top: 130px;
