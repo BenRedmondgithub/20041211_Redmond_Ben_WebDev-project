@@ -52,7 +52,7 @@ ul li {
     background-size: cover;
     position: relative;
 }
-
+/*first left*/
 .first_div_left {
     float: left;
     background-color: rgb(255, 220, 167);
@@ -76,6 +76,8 @@ ul li {
     margin-top: 150px;
     margin-right: 30px;
 }
+
+/*first right*/
 
 .second_div_right {
     background-color: rgb(255, 220, 167);
