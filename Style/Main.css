@@ -95,19 +95,19 @@ ul li {
 body {
     background-color: azure;
 }
-h2 {
-    float: right;
-    font-size: 70px;
-    top: 100px;
-    left: 300px;
-    font-family: "Merienda", cursive;
-}
 
 .Second-div {
     float: left;
     background-color: rgb(255, 220, 167);
     width: 100%;
     height: 750px;
+}
+h2 {
+    float: right;
+    font-size: 70px;
+    top: 100px;
+    left: 300px;
+    font-family: "Merienda", cursive;
 }
 
 #main-img {
