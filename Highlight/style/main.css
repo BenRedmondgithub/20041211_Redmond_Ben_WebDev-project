@@ -53,7 +53,33 @@ ul li {
     position: relative;
 }
 
-/* divs */
+#Headline-main {
+    font-family: "Merienda", cursive;
+    text-shadow: 1.4px 1.5px black;
+    position: absolute;
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Headline-sub {
+    font-family: "Merienda", cursive;
+    text-shadow: 1.4px 1.5px black;
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* divs  p1 */
 
 .first_div_left {
     float: left;
@@ -155,6 +181,7 @@ ul li {
     margin-right: 30px;
 }
 
+/* ooter */
 
 footer{
     float: left;
