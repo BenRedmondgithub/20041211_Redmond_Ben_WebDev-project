@@ -15,6 +15,7 @@
 }
 
 /* Navbar UI */
+
 .Navbar ul {
     list-style-type: none;
     background-color: rgb(255, 220, 167);
@@ -48,12 +49,6 @@ ul li {
     display: inline-block;
     text-align: center;
 }
-/*
-#hamburger_menu {
-    width: 100px;
-    height: 100px
-}
-*/
 
 /* Body */
 
