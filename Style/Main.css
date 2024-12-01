@@ -70,9 +70,9 @@ ul li {
 
     /* use clamp for all media screen */
     
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1550px) {
         .Main-text {
-                font-size: 55px;
+                font-size: 35px;
                 top: 168px;
                 right: 50px;
         }
@@ -85,24 +85,40 @@ ul li {
             font-size: 16px;
             
         }
+        
+        .Second-div{
+            height: 400px;
+        }
 
-        .Second-div {
-            font-size: medium;
+        .Second-div p, .Third-div p {
+            font-size: 20px;
         }
 
         #main-img {
-            width: 25px;
-            height: 20px;
+            width: 10px;
         }
         #main-text {
             font-size: 10px;
         }
 
-        h2 {
+        #headline_1 {
             font-size: 10px;
         }
 
         #main-text-2 {
+            font-size: 20px;
+        }
+
+        .Second-div img, .Third-div img {
+            max-width: 50%;
+            max-height: 20%;
+        }
+
+        #headline-1 {
+            font-size: 20px;
+        }
+
+        #headline_2 {
             font-size: 20px;
         }
     }
@@ -134,7 +150,6 @@ body {
     margin-top: 130px;
     margin-left: 10px;
     border-radius: 40px;
-    filter: drop-shadow(6px 1px 2px #0b0b1d);
 }
 
 #main-text { 
