@@ -6,6 +6,7 @@
 /* outside link to font */
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
+
 /* NarBar */
 .Navbar ul {
     list-style-type: none;
@@ -77,6 +78,23 @@ ul li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1550px) {
+.Main-text {
+        font-size: 35px;
+        top: 168px;
+        right: 50px;
+}
+li {
+    font-size: 22px;
+    display: block;
+} 
+
+.Navbar a {
+    font-size: 16px;
+    
+}
 }
 
 /* divs  p1 */
@@ -181,7 +199,7 @@ ul li {
     margin-right: 30px;
 }
 
-/* ooter */
+/* Footer */
 
 footer{
     float: left;
