@@ -70,7 +70,7 @@ ul li {
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
-@media screen and (max-width: 1200px) {
+@media screen and (mix-width: 1000px) {
     .Main-text {
             font-size: 35px;
             top: 168px;
@@ -83,7 +83,23 @@ ul li {
     
     .Navbar a {
         font-size: 16px;
-        
+    }
+
+    .Second-div #headline_1{
+        font-size: 300%;
+        text-align: center;
+        bottom: 100px;
+    }
+
+    .third-div #headline_2 {
+        font-size: 300%;
+        text-align: center;
+        bottom: 100px;
+    }
+
+    .Second-div #main-img {
+        width: 40%;
+        height: 2%;
     }
 }
 
@@ -154,7 +170,7 @@ h1 {
         float: right;
     }
     
-    #headline_2 {
+    .Third-div #headline_2 {
         float: left;
         font-size: 55px;
         margin-top: 25px;
