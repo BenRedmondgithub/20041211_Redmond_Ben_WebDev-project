@@ -124,6 +124,45 @@ ul li {
             font-size: 20px;
         }
     }
+
+    @media (max-width: 768px) {
+        .menu-toggle {
+            display: flex;
+        }
+    
+        .menu-links {
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #0066cc;
+            width: 100%;
+            display: none;
+            padding: 10px 0;
+        }
+    
+        .menu-links li {
+            text-align: center;
+            padding: 10px 0;
+        }
+    
+        .menu-links.active {
+            display: flex;
+        }
+    
+        /* Animate Hamburger */
+        .menu-toggle.open span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+    
+        .menu-toggle.open span:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .menu-toggle.open span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+    }
       
 body {
     background-color: azure;
