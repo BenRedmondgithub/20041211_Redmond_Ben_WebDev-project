@@ -15,6 +15,31 @@
 }
 
 /* Navbar UI */
+/*
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+img {
+    width: 80px;
+    height: 60px;
+}
+
+*/
 
 .Navbar ul {
     list-style-type: none;
@@ -50,18 +75,6 @@ ul li {
     text-align: center;
 }
 
-.narrow-menu-outer {
-    float: left;
-    width: 100%;
-    height: auto
-}
-
-.narrow-menu {
-    display: none;
-    width: 100%;
-    height: auto
-}
-
 
 
 /* Body */
@@ -85,6 +98,27 @@ ul li {
     /* use clamp for all media screen */
     
     @media screen and (max-width: 950px) {
+        
+        /*
+        .hamburger{
+            display: flex;
+        }
+
+        #menu {
+            display: none;
+            flex-direction: column;
+            background-color: rgb(255, 220, 167);
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+        }
+
+        #menu.show {
+            display: flex;
+        }
+        */
+        
         .Main-text {
                 font-size: 35px;
                 top: 168px;

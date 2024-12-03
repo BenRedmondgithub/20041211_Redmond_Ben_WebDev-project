@@ -72,17 +72,19 @@ ul li {
 
 @media screen and (max-width: 360px) {
     .Main-text {
-            font-size: 35px;
-            top: 168px;
-            right: 50px;
+        font-size: 35px;
+        top: 168px;
+        right: 50px;
     }
-    li {
-        font-size: 22px;
-        display: block;
-    } 
     
+    li {
+    font-size: 22px;
+    display: block;
+    } 
+
     .Navbar a {
-        font-size: 16px;
+    font-size: 16px;
+    
     }
 
     .Second-div #headline_1{
