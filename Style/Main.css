@@ -84,7 +84,7 @@ ul li {
 
     /* use clamp for all media screen */
     
-    @media screen and (max-width: 1550px) {
+    @media screen and (max-width: 950px) {
         .Main-text {
                 font-size: 35px;
                 top: 168px;
@@ -126,8 +126,9 @@ ul li {
         }
 
         .Second-div img, .Third-div img {
+            display: flexbox;
             max-width: 70%;
-            max-height: 40%;
+            max-height: 30%;
         }
 
         #headline-1 {
@@ -173,6 +174,7 @@ body {
     font-size: 40px;
     margin-top: 150px;
     margin-left: 100px;
+    padding-left: 20px;
 }
 
 .Third-div {
