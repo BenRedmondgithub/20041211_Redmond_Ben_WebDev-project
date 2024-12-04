@@ -1,5 +1,10 @@
 //alert('test')
 
+document.getElementById("hamburger").addEventListener("click", function () {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("show");
+});
+
 document.querySelector('form').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent form submission to validate manually
 
@@ -37,7 +42,3 @@ document.querySelector('form').addEventListener('submit', function (event) {
     event.target.submit();
 });
 
-//document.getElementById("hamburger").addEventListener("click", function () {
-    //const menu = document.getElementById("menu");
-    //menu.classList.toggle("show");
-//});
