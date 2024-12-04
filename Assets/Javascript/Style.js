@@ -1,4 +1,4 @@
-//alert('test')
+alert('test')
 
 document.getElementById("hamburger").addEventListener("click", function () {
     const menu = document.getElementById("menu");

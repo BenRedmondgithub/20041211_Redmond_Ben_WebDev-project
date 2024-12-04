@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1550px) {
-    H1 {
+    H1 .main-line {
             font-size: 15px;
             top: 168px;
             right: 50px;
@@ -59,6 +59,10 @@ ul li {
     width: 25%;
     display: inline-block;
     text-align: center;
+}
+
+H1 .Headline {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 950px) {
