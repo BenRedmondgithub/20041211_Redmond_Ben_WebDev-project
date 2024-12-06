@@ -10,12 +10,12 @@
 
     form {
         top: 20%;
-        left: 80%;
+        left: 40%;
     }
 
 }
 
-@media screen and (min-width: 384px) {
+@media screen and (max-width: 384px) {
     H1 .main-line {
             font-size: 15px;
             top: 168px;
