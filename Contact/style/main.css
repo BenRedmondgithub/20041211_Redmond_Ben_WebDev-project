@@ -6,20 +6,25 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1950px) {
+
+    form {
+        top: 20%;
+        left: 80%;
+    }
+
+}
+
 @media screen and (min-width: 384px) {
     H1 .main-line {
             font-size: 15px;
             top: 168px;
             right: 50px;
     }
-    li {
-        font-size: 22px;
-        display: block;
-    } 
     
-    .Navbar a {
-        font-size: 10px;
-        
+    .Navbar ul {
+        font-size: 14px;
+        display: block; 
     }
 
     H1 {
@@ -27,7 +32,12 @@
     }
 
     form {
-        width: 100px;
+        top: 29%;
+        left: 0%;
+    }
+
+    .Navbar a {
+        font-size: 25%;
     }
 
     }
@@ -49,7 +59,7 @@
     color: white;
     text-shadow: 0.8px 0.5px black;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     font-size: 30px;
     display: block;
     text-align: center;
@@ -91,7 +101,7 @@ ul li {
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     font-family: "Merienda", cursive;
     color: #fff;
     text-shadow: 1.4px 1.5px black;
@@ -101,10 +111,9 @@ form {
     background-color: rgb(250, 235, 215,0.8);
     backdrop-filter: blur(5px);
     border-radius: 10px;
-    width: 500px;
-    height: 450px;
-    top: 250px;
-    left: 700px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
     border: 2px solid burlywood;
 
 }
