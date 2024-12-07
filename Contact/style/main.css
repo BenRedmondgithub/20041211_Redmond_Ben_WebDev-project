@@ -15,6 +15,15 @@
 
 }
 
+@media screen and (max-width: 704px) {
+
+    form {
+        top: 20%;
+        left: 0%;
+    }
+
+}
+
 @media screen and (max-width: 384px) {
     H1 .main-line {
             font-size: 15px;
