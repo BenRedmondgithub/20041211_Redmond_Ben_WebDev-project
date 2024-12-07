@@ -6,7 +6,7 @@
 /* outside link to font */
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 384px) {
         
     
     .Main-text {
@@ -24,8 +24,14 @@
         
     }
 
-    #Headline-main h1 {
-        font-size: 20px;
+    #Headline #Headline-main  {
+        font-size: 55px;
+        bottom: 300px;
+    }
+
+    #Headline #Headline-sub {
+        font-size: 35px;
+
     }
 }
 
@@ -80,7 +86,7 @@ ul li {
     font-family: "Merienda", cursive;
     text-shadow: 1.4px 1.5px black;
     position: absolute;
-    font-size: 76px;
+    font-size: 100px;
     color: white;
     text-align: center;
     position: absolute;
@@ -93,7 +99,7 @@ ul li {
     font-family: "Merienda", cursive;
     text-shadow: 1.4px 1.5px black;
     position: absolute;
-    font-size: 25px;
+    font-size: 40px;
     color: white;
     text-align: center;
     position: absolute;
@@ -127,7 +133,7 @@ li {
 
 }
 
-@media screen and (max-width: 628px) {
+@media screen and (max-width: 384px) {
 
     .first_div_left #main-img { 
       height: 250px;
@@ -137,12 +143,12 @@ li {
 
     .second_div_right #main-img-2 {
       height: 250px;
-      width: 350px; 
+      width: 340px; 
     }
 
     .thrid_div_left #main_img_3 {
         height: 250px;
-        width: 350px;
+        width: 340px;
     }
 
     .first_div_left #headline {
@@ -150,11 +156,26 @@ li {
     }
 
     .second_div_right #headline_2 {
-    font-size: 45px;
+        font-size: 45px;
     }
 
     .thrid_div_left #headline_3 {
         font-size: 45px;
+    }
+
+    .first_div_left #main-text{ 
+        font-size: 20px;
+        
+    }
+
+    .second_div_right #main-text-2 { 
+        font-size: 20px;
+        
+    }
+
+    .thrid_div_left #main_text_3{ 
+            font-size: 20px;
+            
     }
 
 }
