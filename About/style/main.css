@@ -6,7 +6,88 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
-@media screen and (max-width: 38px) {
+.Navbar ul {
+    list-style-type: none;
+    background-color: rgb(255, 220, 167);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Navbar a {
+    color: white;
+    text-shadow: 1px 0.5px black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    font-family: "Merienda", cursive;
+}
+
+.Navbar a:hover {
+    background-color: rgb(199, 175, 139);
+}
+
+.Navbar li {
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#hamburger-id {
+  width: 80px;
+  height: 60px;
+}
+
+@media (max-width: 982px) {
+    .hamburger {
+        display: flex;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(255, 220, 167);
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+
+    #menu.show {
+        display: flex;
+    }
+
+    .Navbar li {
+        float: none;
+        width: 100%;
+    }
+
+    .Navbar a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 386px) {
 .first-div-box H1 {
         font-size: 620%;
         top: 40%;
