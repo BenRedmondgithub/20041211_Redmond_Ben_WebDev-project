@@ -218,8 +218,19 @@ h1 {
 footer{
     float: left;
 	width: 100%;
-	height: 300px;
-	background: #274254;
+	height: auto;
+    background-color: rgb(206, 178, 136);
 	color: #fff;
 	text-align: center;
-} 
+}
+
+.Certificates {
+    background-color: rgb(206, 178, 136);
+}
+
+#Certificates {
+    top: 20px;
+    height: 300px;
+    width: 360px;
+}
+ 
