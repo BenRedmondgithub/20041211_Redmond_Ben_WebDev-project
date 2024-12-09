@@ -178,9 +178,16 @@
             font-size: 20px;
         }
 
-        #main-img {
-            width: 10px;
+        .Second-div #main-img {
+            width: 360px;
+            height: 250px;
         }
+
+        .Third-div #main-img-2 {
+            width: 360px;
+            height: 250px;
+        }
+
         #main-text {
             font-size: 10px;
         }
@@ -191,11 +198,6 @@
 
         #main-text-2 {
             font-size: 20px;
-        }
-
-        .Second-div img, .Third-div img {
-            width: 25px;
-            height: 15px;
         }
 
         h2 #headline_1 {
@@ -226,8 +228,8 @@
  #main-img {
     display: flex;
     float: left;
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: 400px;
     margin-top: 20px;
     margin-left: 10px;
     border-radius: 40px;
@@ -258,9 +260,9 @@
 
 #main-img-2 {
     display: flex;
-    float: left;
-    width: 400px;
-    height: 250px;
+    float: right;
+    width: 600px;
+    height: 400px;
     margin-top: 20px;
     border-radius: 40px;
 } 
