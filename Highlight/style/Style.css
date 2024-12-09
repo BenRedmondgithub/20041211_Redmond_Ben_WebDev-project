@@ -6,34 +6,7 @@
 /* outside link to font */
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
-@media screen and (max-width: 384px) {
-        
-    
-    .Main-text {
-            font-size: 35px;
-            top: 168px;
-            right: 50px;
-    }
-    li {
-        font-size: 22px;
-        display: block;
-    } 
-    
-    .Navbar a {
-        font-size: 16px;
-        
-    }
 
-    #Headline #Headline-main  {
-        font-size: 55px;
-        bottom: 300px;
-    }
-
-    #Headline #Headline-sub {
-        font-size: 35px;
-
-    }
-}
 
 /* NarBar */
 .Navbar ul {
@@ -120,20 +93,24 @@ li {
 } 
 
 .Navbar a {
-    font-size: 11px; 
+    font-size: 20px; 
 }
 
 #Headline-main, h1 {
     top: 40%
 }
 
-#Headline-sub {
-    top: 47%;
 }
 
-}
+@media screen and (max-width: 400px) {
 
-@media screen and (max-width: 384px) {
+    #Headline-main, h1{
+       font-size: 500%;
+    }
+
+    .Navbar a {
+        font-size: 11px;
+    }
 
     .first_div_left #main-img { 
       height: 250px;
