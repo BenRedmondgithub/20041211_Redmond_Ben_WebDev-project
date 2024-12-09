@@ -276,12 +276,26 @@ footer{
 	text-align: center;
 }
 
+table {
+    font-size: 30px;
+}
+
+#address {
+    font-size: 35px;
+    display: block;
+}
+
 .Certificates {
     background-color: rgb(206, 178, 136);
 }
 
 #Certificates {
     top: 20px;
-    height: 170px;
-    width: 200px;
+    height: 300px;
+    width: 360px;
 }
+
+#Copyright {
+    font-size: 35px;
+}
+

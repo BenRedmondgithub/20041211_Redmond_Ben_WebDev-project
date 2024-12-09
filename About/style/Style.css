@@ -208,6 +208,15 @@ footer{
 	text-align: center;
 }
 
+table {
+    font-size: 30px;
+}
+
+#address {
+    font-size: 35px;
+    display: block;
+}
+
 .Certificates {
     background-color: rgb(206, 178, 136);
 }
@@ -216,5 +225,9 @@ footer{
     top: 20px;
     height: 300px;
     width: 360px;
+}
+
+#Copyright {
+    font-size: 35px;
 }
  

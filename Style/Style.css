@@ -232,15 +232,15 @@
     height: 400px;
     margin-top: 20px;
     margin-left: 10px;
+    margin-right: 30px;
     border-radius: 40px;
 }
 
 #main-text { 
     display: flexbox;
     font-size: 40px;
-    margin-top: 150px;
-    margin-left: 100px;
-    padding-left: 20px;
+    margin-top: 90px;
+    padding-right: 20px;
     font-family: "Handlee", cursive;
 }
 
@@ -256,7 +256,7 @@
     float: left;
     font-size: 50px;
     margin-top: 25px;
-    margin-right: 30px;
+    margin-left: 30px;
     font-family: "Merienda", cursive;
 }
 
@@ -266,6 +266,8 @@
     width: 600px;
     height: 400px;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
     border-radius: 40px;
 } 
 
@@ -273,7 +275,7 @@
     display: flexbox;
     font-size: 40px;
     margin-top: 130px;
-    margin-right: 30px;
+    margin-left: 30px;
     font-family: "Handlee", cursive;
 }
 
@@ -286,6 +288,15 @@ footer{
 	text-align: center;
 }
 
+table {
+    font-size: 30px;
+}
+
+#address {
+    font-size: 35px;
+    display: block;
+}
+
 .Certificates {
     background-color: rgb(206, 178, 136);
 }
@@ -294,5 +305,9 @@ footer{
     top: 20px;
     height: 300px;
     width: 360px;
+}
+
+#Copyright {
+    font-size: 35px;
 }
 
