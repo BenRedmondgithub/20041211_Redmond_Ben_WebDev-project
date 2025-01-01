@@ -19,6 +19,8 @@ Thank you for taking the time to check out my profile! I’m always open to conn
 - [LinkedIn](https://www.linkedin.com/in/benredmond100/) (replace with your link)
 - Email: redmond.ben70@gmail.com
 
+- Updated
+
 ---
 
 *Feel free to reach out! I look forward to connecting and collaborating with you.*
